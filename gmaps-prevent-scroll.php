@@ -129,15 +129,6 @@ final class gMap_PreventScroll {
 		}
 		// Admin - End
 
-		// Post Types - Start
-		require_once( 'classes/class-google-maps-prevent-scroll-plugin-post-type.php' );
-		require_once( 'classes/class-google-maps-prevent-scroll-plugin-taxonomy.php' );
-
-		// Register an example post type. To register other post types, duplicate this line.
-		$this->post_types['thing'] = new gMap_PreventScroll_Post_Type( 'thing', __( 'Thing', 'google-maps-prevent-scroll-plugin' ), __( 'Things', 'google-maps-prevent-scroll-plugin' ), array( 'menu_icon' => 'dashicons-carrot' ) );
-		// Post Types - End
-		register_activation_hook( __FILE__, array( $this, 'install' ) );
-
 		add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
 	} // End __construct()
 
