@@ -1,9 +1,9 @@
 === Google Maps Prevent Scroll ===
-Contributors:
-Donate link:
-Tags:
-Requires at least: 4.0.0
-Tested up to: 4.0.0
+Contributors: gabelloyd
+Donate link: https://longtailcreative.com
+Tags: googlemaps
+Requires at least: 4.4
+Tested up to: 4.7.3
 Stable tag: 1.0.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -18,7 +18,7 @@ Looking for a helping hand? [View plugin documentation](https://longtailcreative
 
 == Usage ==
 
-Place some text here, explaining how to use this plugin. Keep it clear and easy to read (short sentences).
+This plugin will find all Google Map embeds and prevent scrolling of the map when scrolling down the screen. 
 
 == Installation ==
 
@@ -33,7 +33,7 @@ Installing "Google Maps Prevent Scroll" can be done either by searching for "Goo
 
 = How do I contribute? =
 
-We encourage everyone to contribute their ideas, thoughts and code snippets. This can be done by forking the [repository over at GitHub](http://github.com/Gabe Lloydza/google-maps-prevent-scroll-plugin/).
+We encourage everyone to contribute their ideas, thoughts and code snippets. This can be done by forking the [repository over at GitHub](http://github.com/gabelloyd/google-maps-prevent-scroll-plugin/).
 
 == Screenshots ==
 
@@ -43,11 +43,11 @@ We encourage everyone to contribute their ideas, thoughts and code snippets. Thi
 == Upgrade Notice ==
 
 = 1.0.0 =
-* XXXX-XX-XX
+* March 15, 2017
 * Initial release. Woo!
 
 == Changelog ==
 
 = 1.0.0 =
-* XXXX-XX-XX
+* March 15, 2017
 * Initial release. Woo!

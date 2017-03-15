@@ -119,15 +119,10 @@ final class gMap_PreventScroll {
 		$this->plugin_path 		= plugin_dir_path( __FILE__ );
 		$this->version 			= '1.0.0';
 
-		// Admin - Start
-		require_once( 'classes/class-google-maps-prevent-scroll-plugin-settings.php' );
-			$this->settings = gMap_PreventScroll_Settings::instance();
+		define( 'LTC_GMAP_PREVENT_SCROLL', plugin_dir_path( __FILE__ ) );
 
-		if ( is_admin() ) {
-			require_once( 'classes/class-google-maps-prevent-scroll-plugin-admin.php' );
-			$this->admin = gMap_PreventScroll_Admin::instance();
-		}
-		// Admin - End
+		// Get the plugin functions 
+		require_once(LTC_GMAP_PREVENT_SCROLL . 'functions.php');
 
 		add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
 	} // End __construct()
